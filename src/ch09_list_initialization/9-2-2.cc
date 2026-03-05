@@ -1,0 +1,18 @@
+#include <list>
+#include <map>
+#include <set>
+#include <string>
+#include <vector>
+
+int main() {
+  int x[] = {1, 2, 3, 4, 5};
+  int x1[]{1, 2, 3, 4, 5};
+  std::vector<int> x2{1, 2, 3, 4, 5};
+  std::vector<int> x3 = {1, 2, 3, 4, 5};
+  std::list<int> x4{1, 2, 3, 4, 5};
+  std::list<int> x5 = {1, 2, 3, 4, 5};
+  std::set<int> x6{1, 2, 3, 4, 5};
+  std::set<int> x7 = {1, 2, 3, 4, 5};
+  std::map<std::string, int> x8{{"bear", 4}, {"cassowary", 2}, {"tiger", 7}};
+  std::map<std::string, int> x9 = {{"bear", 4}, {"cassowary", 2}, {"tiger", 7}};
+}
